@@ -1,1 +1,13 @@
+
+### your site title here
+
+title: Boreal's slice of the Web
+
+permalink: /:title
+
+baseurl: ""
+
+sass: 
+  style: compressed
+
 theme: jekyll-theme-slate
