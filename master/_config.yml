@@ -1,0 +1,13 @@
+
+### your site title here
+
+title: Alexander Tsuetaki's Fiefdom on the Internet
+
+permalink: /:title
+
+baseurl: ""
+
+sass: 
+  style: compressed
+
+theme: jekyll-theme-slate
