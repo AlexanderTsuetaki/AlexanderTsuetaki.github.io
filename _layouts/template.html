@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
- <body>
-  <h1>Hello World</h1>
- 
-  {% for page in site.pages %}
-  	<a href=howto>How To</a>
-   	<a href={{ page.filename }}>{{ page.title }}</a>
-  {% endfor %}
-  <a href="Home">
- 	
+	{% for page in site.pages %}
+		<a href={{ page.filename }}>{{ page.title }}</a>
+	{% endfor %}
+	<div class="navbar">
+		<a href="about_me.md">about_me</a>
+		<a href="projects.md">projects</a>
+		<a href="index.md">home</a>
+	</div>
+<body>
+<h1>Hello World</h1>
+
+
+
 
 <p>{{ content }}</p>
 </body>
