@@ -1,5 +1,5 @@
 ---
 title: projects
 layout: template
-filename: projects.md
+filename: 3-projects.md
 --- 
