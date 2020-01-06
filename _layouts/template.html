@@ -1,10 +1,19 @@
 <!DOCTYPE html>
 <html>
-	{% for page in site.pages %}
-		<a href={{ page.filename }}>{{ page.title }}</a>
-	{% endfor %}
+<head>
+	<meta charset="uft-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Welcome to Alexander Tsuetaki's Fiefdom</title>
+	<link rel="stylesheet" href="/css/main.css"
+</head>
 
 <body>
+	<header>	
+		{% for page in site.pages %}
+			<a href={{ page.filename }}>{{ page.title }}</a>
+		{% endfor %}
+	</header>
+
 <h1>Hello World</h1>
 
 
